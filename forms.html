@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fonts</title>
+    <style>
+        body{
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gray;
+}
+
+form{
+    background-color: darkcyan;
+    border-radius: 12px;
+}
+
+#name1{
+    border-radius: 5px;
+    background-color: lightblue;
+    border-color: lightblue;
+    border-style: dashed;
+}
+
+#name2{
+    border-radius: 5px;
+    background-color: greenyellow;
+    border-color: greenyellow;
+    border-style: dashed;
+}
+
+#name3{
+    border-radius: 5px;
+    background-color: lightcoral;
+    border-color: lightcoral;
+    border-style: dashed;
+}
+
+textarea{
+    border-radius: 5px;
+    background-color: lightsalmon;
+    border-color: lightsalmon;
+    border-style: dashed;
+}
+
+.select1{
+    border-radius: 5px;
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+    border-style: dashed;
+    font-weight: bold;
+}
+
+.select2{
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+    border-color: lightgoldenrodyellow;
+    border-style: dashed;
+    font-weight: bold;
+}
+
+#s1{
+    background-color: aquamarine;
+    border-color: aquamarine;
+    border-style: dashed;
+    font-weight: bold;
+}
+
+#s2{
+    background-color: greenyellow;
+    border-color: greenyellow;
+    border-style: dashed; 
+    font-weight: bold;
+}
+
+#s3{
+    background-color: rebeccapurple;
+    border-color: rebeccapurple;
+    border-style: dashed;
+    font-weight: bold;
+}
+
+#s4{
+    background-color: brown;
+    border-color: brown;
+    border-style: dashed;
+    font-weight: bold;
+}
+
+.c1{
+    background-color: tomato;
+    border-color: tomato;
+    border-style: dashed;
+    font-weight: bold;
+}
+
+.c2{
+    background-color: purple;
+    border-color: purple;
+    border-style: dashed;
+    font-weight: bold;
+}
+
+.c3{
+    background-color: cadetblue;
+    border-color: cadetblue;
+    border-style: dashed;
+    font-weight: bold;
+}
+
+.c4{
+    background-color: burlywood;
+    border-color: burlywood;
+    border-style: dashed;
+    font-weight: bold;
+}
+
+.c5{
+    background-color: yellow;
+    border-color: yellow;
+    border-style: dashed;
+    font-weight: bold;
+}
+
+.c5{
+    background-color: green;
+    border-color: green;
+    border-style: dashed;
+    font-weight: bold;
+}
+
+.c6{
+    background-color: orange;
+    border-color: orange;
+    border-style: dashed;
+    font-weight: bold;
+}
+
+.u1{
+    background-color: green;
+    border-color: darkgreen;
+    border-width: 2px;
+}
+
+.r1{
+    background-color: red;
+    border-color: darkred;
+    border-width: 2px;
+}
+
+    </style>
+</head>
+
+<body dir="rtl">
+        <legend>فرم ثبت نام</legend>
+        <form action="" width='450'>
+
+            <table width="450" border="0" align="center">
+                <tr>
+                    <td width="150" align="left" class="td1">
+                        نام کاربری :
+                    </td>
+                    <td>
+                        <input type="text" maxlength="15" size="20" placeholder="نام کاربری خود را وارد کنید" id="name1">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="150" align="left" class="td2">
+                        رمز عبور :
+                    </td>
+                    <td>
+                        <input type="password" maxlength="15" size="20" placeholder="رمز عبور خود را وارد کنید" id="name2">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="150" align="left" class="td3">
+                        ایمیل :
+                    </td>
+                    <td>
+                        <input type="email" maxlength="15" size="20" placeholder="ایمیل خود را وارد کنید" id="name3">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="150" align="left" valign="top" class="td4">
+                        آدرس :
+                    </td>
+                    <td>
+                        <textarea rows="10" cols="20"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="150" align="left" valign="top" class="td5">
+                        جنسیت :
+                    </td>
+                    <td>
+                        <input type='radio' name="ahmad">مرد
+                        <input type='radio' name="ahmad">زن
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="150" align="left" valign="top" class="td6">
+                        شهر :
+                    </td>
+                    <td>
+                        <select class="select1">
+                            <option>اصفهان</option>
+                            <option id="s1">تهران</option>
+                            <option id="s2">بیرجند</option>
+                            <option id="s3">شیراز</option>
+                            <option id="s4">تبریز</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="150" align="left" valign="top" class="td7">
+                        استان :
+                    </td>
+                    <td>
+                        <select class="select2">
+                            <optgroup label="شرق" class="c1">
+                                <option class="c2">خراسان جنوبی</option>
+                                <option class="c3">خراسان رضوی</option>
+                                <option class="c4">سیستان و بلوچستان</option>
+                            </optgroup>
+                            <optgroup label="شمال" class="c1">
+                                <option class="c5">گلستان</option>
+                                <option class="c6">مازندران</option>
+                                <option class="c7">آذربایجان</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="150" align="left" valign="top" class="td8">
+                        علاقه مندی ها :
+                    </td>
+                    <td>
+                        <input type="checkbox">موزیک
+                        <input type="checkbox">سفر
+                        <input type="checkbox">ورزش
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="150" align="left" valign="top" class="td9">
+                        فایل :
+                    </td>
+                    <td>
+                        <input type="file" class="f1">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                            <input type="submit" value="ثبت نام" href="img/mom/4.jpg" class="u1">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="reset" value="پاک کردن فرم" class="r1">
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+</body>
+
+</html>
